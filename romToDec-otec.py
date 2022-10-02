@@ -1,5 +1,5 @@
 ### Prevod rimskeho cisla na decimalne ###
-x = "MCLXV"
+x = "MCMXCVI"
 # y1 = [str(numeric_string) for numeric_string in x]
 znaky = ["M", "D", "C", "L", "X", "V", "I"]
 for i in x:
