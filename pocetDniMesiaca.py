@@ -14,4 +14,5 @@ while True:
     else:
         print("nezadal si cislovku")
 
-print(calendar.monthrange(int(year), int(month))[1])
+dayCount = calendar.monthrange(int(year), int(month))[1]
+print(f"mesiac {month} v roku {year} ma {dayCount} dni")
